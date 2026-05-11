@@ -9,7 +9,7 @@ OOP와 유니티의 구현방식을 따라 GameObject가 여러 종류의 Compon
 
 성능적 한계: 컴포넌트의 부착/해제 설계는 유연하지만, 필연적인 포인터 체이싱으로 인해 심각한 캐시 미스와 분기 예측 실패가 누적됩니다.
 
-## Few-Pow-Sign-Dedicated 방식(DOD 방식)
+## [FPS 프로젝트](https://github.com/whitefish2n2/few_pow_sign_dedicated) 에서 사용했던 방식(DOD 방식)
 데이터 지향 디자인을 바탕으로 OOP의 가상화 및 상속을 이용할 수 있게 구현되었습니다.
 
 메모리 구조: 한 종류의 컴포넌트 객체들이 하나의 Array 안에 저장되게 합니다.
